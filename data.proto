@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message carData {
+    int32 channel = 1;
+    float value = 2;
+    float time = 3;
+}
+
+message DataList {
+    repeated carData lap = 1;
+}
